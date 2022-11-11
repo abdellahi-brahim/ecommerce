@@ -1,0 +1,55 @@
+{
+  "name" : "auchan",
+  "products" :  [
+    {
+      "name" : "aveia",
+      "basePrice" : 0.99,
+      "curr" : "EUR",
+      "prices" : [
+        {
+          "startDate": "2022-01-12 12:00",
+          "endDate": "2022-02-12 12:00",
+          "tax": 0.10,
+          "priority": 1
+        },
+        {
+          "startDate": "2022-02-13 12:00",
+          "endDate": "2022-02-28 12:00",
+          "tax": 0.05,
+          "priority": 2
+        },
+        {
+          "startDate": "2022-02-28 12:00",
+          "endDate": "2022-03-06 12:00",
+          "tax": 0.01,
+          "priority": 1
+        }
+      ]
+    },
+    {
+      "name" : "leite",
+      "basePrice" : 0.69,
+      "curr" : "EUR",
+      "prices" : [
+        {
+          "startDate": "2022-01-12 12:00",
+          "endDate": "2022-02-12 12:00",
+          "tax": 0.10,
+          "priority": 1
+        },
+        {
+          "startDate": "2022-02-13 12:00",
+          "endDate": "2022-02-28 12:00",
+          "tax": 0.05,
+          "priority": 2
+        },
+        {
+          "startDate": "2022-02-28 12:00",
+          "endDate": "2022-03-06 12:00",
+          "tax": 0.01,
+          "priority": 1
+        }
+      ]
+    }
+  ]
+}
